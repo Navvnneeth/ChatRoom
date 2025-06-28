@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { auth } from './firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import Login from './Login';
-import ChatRoom from './ChatRoom';
 import { Route, Routes } from 'react-router-dom';
 import Signup from './Signup';
 import Chat from './Chat';
-import Protectedroute from './Protectedroute';
 import ForgotPassword from './ForgotPassword';
 
 function App() {
